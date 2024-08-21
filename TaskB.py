@@ -130,7 +130,7 @@ class CarFactory:
 
 
 
-# Example usage
+
 factory = CarFactory.get_instance()
 
 
@@ -139,7 +139,7 @@ car1 = factory.create_car()
 
 car2 = factory.create_car(Nos=2, col="Red", mov="Automatic", EnTyp="Electric", Hp=250, fultyp="Electric")
 
-# Display the cars
+
 car1.display()
 print("\n")
 car2.display()
